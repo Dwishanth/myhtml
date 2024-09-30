@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission</title>
+</head>
+<body>
+    <!-- The action should point to a backend script like 'save_response.php' -->
+    <form action="save_response.php" method="post">
+        <span><b>First Name:</b></span>
+        <input placeholder="First Name" type="text" name="first_name" required>
+        <br>
+
+        <span><b>Last Name:</b></span>
+        <input placeholder="Last Name" type="text" name="last_name" required>
+        <br>
+
+        <span><b>Email:</b></span>
+        <input type="email" placeholder="Email" name="email" required>
+        <br>
+
+        <span><b>Phone Number:</b></span>
+        <input type="number" placeholder="Phone" name="phone" required>
+        <br>
+
+        <p><b>Gender</b></p>
+        <span><b>Male:</b></span>
+        <input type="radio" name="gender" value="Male" required>
+        <span><b>Female:</b></span>
+        <input type="radio" name="gender" value="Female" required>
+        <br>
+
+        <button type="submit" value="submit">Send</button>
+    </form>
+</body>
+</html>
