@@ -1,0 +1,19 @@
+formatting tags----->Conversion
+
+text formatting or tag formatting(Change the appearance)
+
+<i></i>  ---> Italic(inline element all formatting tags)
+<mark></mark>    --->Highlight
+<b></b>       -->>bold
+<strong></strong>   ---->SEO
+<small></small>    --->small text
+<sup></sup>  ---->> to the power
+<sub></sub>     ----->subordinate
+
+
+void elements----> no closing tag        br, hr, input, 
+
+
+img
+anchor tags part 2 
+relative vs absolute(paths)
