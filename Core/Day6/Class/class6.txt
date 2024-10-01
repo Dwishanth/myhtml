@@ -1,0 +1,3 @@
+div ----> seperates the content from the rest
+span ------>> specific part referance
+textarea()
