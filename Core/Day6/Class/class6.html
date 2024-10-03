@@ -6,18 +6,19 @@
     <title>Document</title>
 </head>
 <body>
+    <h1 align="center"><b><i>Application For New Intakes</i></b></h1>
     <form action="./class6.txt" align="center">
         <div>
             <span>
-                CHeppu be <input type="text" placeholder="per enti?" required>
+                Name:- <input type="text" placeholder="Name" required>
             </span><br><br>
             <span>
-                Phone?:- <input type="tel" placeholder="Number CHeppu" required>
+                Phone:- <input type="tel" placeholder="Number" required>
             </span><br><br>
         </div>
         <div>
             <span>
-                <b>Em kavali endi</b><input list="a">
+                <b>Field</b><input list="a">
                 <datalist id="a">
                     <option value="Html">App</option>
                     <option value="Js">Abbaa</option>
@@ -26,18 +27,18 @@
                 </datalist>
             </span><br><br>
             <span>
-                <label for="54"><b>Epuudosthav endi</b></label><input type="datetime-local" name="DOB" id="54">
+                <label for="54"><b>Perfered Start</b></label><input type="datetime-local" name="DOB" id="54">
             </span><br><br>
         </div>
         <div>
             <span>
                 <fieldset>
-                    <legend align="right">Sarle</legend>
-                    <p><b>Jeevithamloo</b></p>
+                    <legend align="right">Feedback</legend>
+                    <textarea name="Feedback" id="f" rows="10" cols="100" placeholder="Enter a short feedback"></textarea>
                 </fieldset>
-                <p><b><a href="mailto:dwishanthbolla@gmail.com">mail chey mowa</a></b></p>
+                <p><b><a href="mailto:dwishanthbolla@gmail.com">Contact Us</a></b></p>
             </span>
-            <button type="submit">Em undile inka Paduko</button>
+            <button type="submit">Send</button>
         </div>
     </form>
 </body>
