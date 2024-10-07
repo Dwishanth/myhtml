@@ -10,22 +10,26 @@
     <form action="./class6.txt" align="center">
         <div>
             <span>
-                Name:- <input type="text" placeholder="Name" required>
+                Name:- <input type="text" placeholder="Name" required value="Dwishanth" readonly>
             </span><br><br>
             <span>
-                Phone:- <input type="tel" placeholder="Number" required>
+                Phone:- <input type="number" placeholder="Number" required maxlength="10" minlength="10">
             </span><br><br>
         </div>
         <div>
             <span>
-                <b>Field</b><input list="a">
-                <datalist id="a">
-                    <option value="Html">App</option>
-                    <option value="Js">Abbaa</option>
-                    <option value="C++">Daridram</option>
-                    <option value="Python">Swargam</option>
-                </datalist>
+                <b>Field:- </b>
+                <select name="a" id="a">
+                    <option value="Html">HtmlApp</option>
+                    <option value="Js" disabled>Js</option>
+                    <option value="C++" disabled>C++</option>
+                    <option value="Python" disabled>Python</option>
+                </select>
             </span><br><br>
+            <span>Devara Fear.mp3</span>
+            <audio src="./[iSongs.info] 02 - Fear Song.mp3" controls>Devara</audio>
+            <p><video src="./Screen Recording 2024-10-02 231517.mp4" controls width="500"></video></p>
+            <p>Password:- <input type="password" placeholder="Password" minlength="8" maxlength="12"></p>
             <span>
                 <label for="54"><b>Perfered Start</b></label><input type="datetime-local" name="DOB" id="54">
             </span><br><br>
@@ -36,6 +40,7 @@
                     <legend align="right">Feedback</legend>
                     <textarea name="Feedback" id="f" rows="10" cols="100" placeholder="Enter a short feedback"></textarea>
                 </fieldset>
+                Docs:- <input type="file" multiple>
                 <p><b><a href="mailto:dwishanthbolla@gmail.com">Contact Us</a></b></p>
             </span>
             <button type="submit">Send</button>
