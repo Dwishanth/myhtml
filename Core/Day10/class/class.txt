@@ -1,0 +1,20 @@
+child properties of flex
+
+
+order(Integer)
+Flex-grow(number)
+Flex-shrink(Number)
+align-self(flex-start, flex-end, stretch, center, baseline)
+flex-basis
+flex(flex-grow, flex-shrink, flex-basis)
+
+
+
+
+
+running-->>
+align always works in opposite direction to that of the default
+
+
+research topics
+can we arrange the elements in row wise by align-item when we changed the direction to colom
